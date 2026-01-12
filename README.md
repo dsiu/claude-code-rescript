@@ -92,7 +92,7 @@ claude
 
 The plugin automatically activates when you work with ReScript files (`.res`, `.resi`). Claude Code will leverage the language server to provide accurate type information, diagnostics, and code intelligence.
 
-**For example prompts and LSP commands, see [demo/README.md](demo/README.md)**
+**For example prompts and LSP commands, see [demo/DEMONSTRATION.md](demo/DEMONSTRATION.md)**
 
 ## Contributing
 
