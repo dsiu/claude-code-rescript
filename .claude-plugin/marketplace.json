@@ -1,0 +1,20 @@
+{
+  "name": "claude-code-rescript",
+  "owner": {
+    "name": "Danny Siu"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for ReScript development",
+    "homepage": "https://github.com/dsiu/claude-code-rescript",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "rescript-lsp",
+      "source": "./plugins/rescript-lsp",
+      "description": "ReScript Language Server integration for go-to-definition, references, and hover docs",
+      "category": "lsp",
+      "keywords": ["rescript", "lsp", "language-server", "intellisense", "autocomplete"]
+    }
+  ]
+}

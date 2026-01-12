@@ -1,0 +1,27 @@
+{
+  "name": "rescript-lsp",
+  "description": "ReScript Language Server integration for Claude Code",
+  "version": "0.0.1",
+  "author": {
+    "name": "Danny Siu"
+  },
+  "homepage": "https://github.com/dsiu/claude-code-rescript",
+  "license": "MIT",
+  "keywords": [
+    "rescript",
+    "lsp",
+    "language-server"
+  ],
+  "lspServers": {
+    "rescript": {
+      "command": "rescript-language-server",
+      "args": [
+        "--stdio"
+      ],
+      "extensionToLanguage": {
+        ".res": "rescript",
+        ".resi": "rescript"
+      }
+    }
+  }
+}
