@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(yarn build)",
+      "Bash(rescript-language-server:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(claude plugin list:*)"
+    ]
+  },
+  "enabledPlugins": {
+    "rescript-lsp@claude-code-rescript": true
+  }
+}

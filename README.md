@@ -83,11 +83,16 @@ The plugin automatically starts the ReScript language server when you work with 
 
 ## Usage
 
-Once installed, the plugin automatically activates when you open ReScript files (`.res`, `.resi`). Claude Code will leverage the language server to provide:
+Claude Code is a CLI tool. Once the plugin is installed, start a session in your ReScript project directory:
 
-- Accurate type information for better code generation
-- Context-aware suggestions based on your project structure
-- Navigate to definitions and find references across your codebase
+```bash
+cd your-rescript-project
+claude
+```
+
+The plugin automatically activates when you work with ReScript files (`.res`, `.resi`). Claude Code will leverage the language server to provide accurate type information, diagnostics, and code intelligence.
+
+**For example prompts and LSP commands, see [demo/README.md](demo/README.md)**
 
 ## Contributing
 
