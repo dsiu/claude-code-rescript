@@ -19,6 +19,18 @@ demo/
     └── Cart.res            # Shopping cart (generated during demo)
 ```
 
+## Setup
+
+Before running the example prompts, you must install dependencies and build the ReScript project. The LSP server requires compiled artifacts to provide type information.
+
+```bash
+cd demo
+yarn install
+yarn build
+```
+
+**Important:** ReScript LSP relies on the compiler's build artifacts. Always run `yarn build` (or `npm run build`) before starting a Claude Code session to ensure LSP features work correctly.
+
 ---
 
 ## Example Prompts

@@ -96,6 +96,16 @@ claude
 ENABLE_LSP_TOOL=1 claude
 ```
 
+**Important:** The ReScript LSP server requires a compiled project to provide type information. Before starting Claude Code, ensure you've built your project:
+
+```bash
+# Install dependencies (first time only)
+npm install  # or yarn install
+
+# Build the project
+npm run build  # or yarn build
+```
+
 The plugin automatically activates when you work with ReScript files (`.res`, `.resi`). Claude Code will leverage the language server to provide accurate type information, diagnostics, and code intelligence.
 
 **For example prompts and LSP commands, see [demo/DEMONSTRATION.md](demo/DEMONSTRATION.md)**
