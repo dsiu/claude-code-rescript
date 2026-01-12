@@ -90,6 +90,12 @@ cd your-rescript-project
 claude
 ```
 
+**Note:** As of Claude Code v2.1.5, LSP functionality requires the `ENABLE_LSP_TOOL=1` environment variable:
+
+```bash
+ENABLE_LSP_TOOL=1 claude
+```
+
 The plugin automatically activates when you work with ReScript files (`.res`, `.resi`). Claude Code will leverage the language server to provide accurate type information, diagnostics, and code intelligence.
 
 **For example prompts and LSP commands, see [demo/DEMONSTRATION.md](demo/DEMONSTRATION.md)**
